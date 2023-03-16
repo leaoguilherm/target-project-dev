@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    background-color: #3B3D5D;
+}
+
+.cabecalho {
+    background-color: #1F2235;
+    height: 110px;
+}
+
+.conteinerNav {
+    margin-left: 55px;
+}
+
+.conteinerNav .btn {
+    width: 94px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;
+    margin-top: 30px;
+}
+
+.conteinerNav .btnContato {
+    background-color: #FF4A57;
+}
+
+.btnContato:hover {
+    background-color: #f15e68;
+}
+
+.conteinerNav .btnHome {
+    background: none;
+}
+
+.btnHome:hover {
+    background-color: #f15e68;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

@@ -25,6 +25,10 @@ body {
     background-color: #FF4A57;
 }
 
+.btnHome:hover {
+    background-color: #f15e68;
+}
+
 .conteinerNav .btnContato {
     background: none;
 }
@@ -32,6 +36,8 @@ body {
 a {
     text-decoration: none;
     color: white;
+    margin: 0px;
+    padding: 0px;
 }
 
 .conteudoPg {
