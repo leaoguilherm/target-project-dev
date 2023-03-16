@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    background-color: #3B3D5D;
+}
+
+.cabecalho {
+    background-color: #1F2235;
+    height: 110px;
+}
+
+.conteinerNav {
+    margin-left: 55px;
+}
+
+.conteinerNav .btn {
+    width: 94px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;
+    margin-top: 30px;
+}
+
+.conteinerNav .btnHome {
+    background-color: #FF4A57;
+}
+
+.conteinerNav .btnContato {
+    background: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.conteudoPg {
+    display: flex;
+}
+
+.blocoEsquerdo {
+    width: 100%;
+}
+
+.conteinerImg {
+    background-color: white;
+    height: 301px;
+    width: 240px;
+    margin-top: 80px;
+    rotate: -8deg;
+    float: right;
+    margin-right: 160px;
+    /* margin-left: 190px; */
+}
+
+.conteinerImg img {
+    height: 266px;
+    padding: 15px 20px 15px 20px;
+    rotate: 2deg;
+}
+
+main {
+    width: 100%;
+    padding-top: 150px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.redesSociais ul {
+    margin: 3px;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    width: 314px;
+}
+
+.redesSociais ul li {
+    padding: 10px 10px 10px 10px;
+    list-style-type: none;
+    border: solid 1px;
+    border-color: #FF4A57;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-right: auto;
+
+}
+
+.dados {
+    font-family: 'Poppins';
+    font-size: 18px;
+    margin-left: 160px;
+}
+
+.dados h1 {
+    font-size: 45px;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.dados p {
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+.dados ul {
+    margin: 0px;
+    padding: 10px 0px 10px 40px;
+}
