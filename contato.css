@@ -88,7 +88,7 @@ body {
 
 .retornoApi {
     font-family: 'Poppins';
-    border: solid 2px;
+    border: solid 1px white;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -112,8 +112,8 @@ body {
     justify-content: center;
     align-items: center;
     border: solid white 1px;
-    border-radius: 15px;
-    height: 30px;
+    border-radius: 10px;
+    height: 35px;
     margin-top: 5px;
     background-color: #428622;
     display: none;
@@ -123,4 +123,5 @@ body {
     text-align: center;
     margin: 0px;
     font-weight: bold;
+    color: white;
 }
