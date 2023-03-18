@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="./contato.js"></script>
     <link rel="stylesheet" href="./contato.css">
     <title>Contato</title>
 </head>
+
 <body>
     <header class="cabecalho">
         <nav class="conteinerNav">
-            <button class="btn btnHome">
-                <a href="./index.html">Home</a>
-            </button>
-            <button class="btn btnContato">
-                <a href="./contato.html">Contato</a>
-            </button>
+            <a class="btn btnHome" href="./index.html">Home</a>
+            <a class="btn btnContato" href="./contato.html">Contato</a>    
         </nav>
     </header>
-    
+
+    <main>
+        <div class="conteinerInput">
+            <input type="text" name="name" id="idName" placeholder="Digite o seu nome">
+            <input type="email" name="email" id="idEmail" placeholder="Digite o seu e-mail">
+            <textarea name="" id="idMensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+
+            <button onclick="enviarMensagem()" class="btnEnviar">ENVIAR</button>
+
+            <div class="mensagemDeConfirmacao" id="elementoConfirmacao">
+                <p>Seu e-mail foi enviado com sucesso!</p>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="retornoApi" id="elementoDadosDaApi">
+                <h1>Retorno da API</h1>
+                <p id="elemento1">Nome:</p>
+                <p id="elemento2">E-mail:</p>
+                <p id="elemento3">Mensagem:</p>
+            </div>
+        </div>
+    </main>
+
 </body>
+
 </html>

@@ -5,11 +5,12 @@ body {
 
 .cabecalho {
     background-color: #1F2235;
-    height: 110px;
+    height: 90px;
 }
 
 .conteinerNav {
     margin-left: 55px;
+    height: 100%;
 }
 
 .conteinerNav .btn {
@@ -18,11 +19,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     border: none;
-    margin-top: 30px;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .conteinerNav .btnContato {
     background-color: #FF4A57;
+    text-decoration: none;
+    color: white;
 }
 
 .btnContato:hover {
@@ -31,13 +37,89 @@ body {
 
 .conteinerNav .btnHome {
     background: none;
+    text-decoration: none;
+    color: white;
 }
 
 .btnHome:hover {
-    background-color: #f15e68;
+    background-color: #5e484b98;
 }
 
-a {
-    text-decoration: none;
+.conteinerInput {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteinerInput input {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.conteinerInput textarea {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    height: 80px;
+    font-size: 13px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnEnviar {
     color: white;
+    background-color: #191A2C;
+    height: 38px;
+    border: solid white 1px;
+    border-radius: 10px;
+}
+
+.btnEnviar:hover {
+    background-color: #27283d;
+}
+
+.retornoApi {
+    font-family: 'Poppins';
+    border: solid 2px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 50%;
+    display: none;
+}
+
+.retornoApi h1 {
+    color: white;
+    text-align: center;
+}
+
+.retornoApi p {
+    color: white;
+    margin-left: 15px;
+}
+
+.mensagemDeConfirmacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 1px;
+    border-radius: 15px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #428622;
+    display: none;
+}
+
+.mensagemDeConfirmacao p {
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
 }
